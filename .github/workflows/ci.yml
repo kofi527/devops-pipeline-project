@@ -27,7 +27,7 @@ jobs:
 
       - name: Run Unit Tests
         run: |
-          pytest flaskapp/tests -q
+          pytest flaskapp/app/tests -q
 
   build-docker:
     runs-on: ubuntu-latest
