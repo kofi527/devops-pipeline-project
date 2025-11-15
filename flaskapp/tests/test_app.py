@@ -11,4 +11,4 @@ def test_home():
     data = json.loads(response.data.decode("utf-8"))
     
     # Now assert the message
-    assert data["message"] == "Hello from DevOps Pipeline this is a clear message from the devops team!"
+    assert data["message"] == "Hello from kenneth DevOps Pipeline this is a clear message from the devops team!"
