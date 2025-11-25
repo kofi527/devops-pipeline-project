@@ -3,3 +3,16 @@
 Project overview and description
 This is an exclusive project that highlights the processes of automating a an application from building an image to pushing it in dockerhub and running the application
 
+###Tools&Softwares###
+
+Flask (simple Python API)
+
+Docker containerization
+
+Pytest unit testing
+
+GitHub Actions CI/CD Pipeline
+
+Automatic build & push to Docker Hub
+
+Deployment using Docker Hub image
