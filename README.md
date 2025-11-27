@@ -1,5 +1,8 @@
 # Flask application-devops pipeline-project
 
+<img width="600" height="600" alt="devops-logo-png_seeklogo-423085" src="https://github.com/user-attachments/assets/4066dc53-5d32-4819-8d02-861fb4305c01" />
+
+
 Project overview and description
 This is an exclusive project that highlights the processes of automating a an application from building an image to pushing it in dockerhub and running the application. 
 
