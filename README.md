@@ -96,6 +96,15 @@ pushed into dockerhub from github directly.
 
   <img width="468" height="215" alt="image" src="https://github.com/user-attachments/assets/1ed3870e-2dc4-4088-a9af-c25c75d48d3c" />
 
+2.1 Exiting due to SVC_UNREACHABLE: service not available: no running pod for service flaskapp-service found : That error means your Service is running but there are zero running Pods matching the Service selector, so Kubernetes has nothing to       route traffic to. This shows that our pods exist but are service is not conneected to the points the image below is an example of the error we encounter during that process
+
+  -<img width="468" height="40" alt="image" src="https://github.com/user-attachments/assets/e91e94e4-c218-4e87-a96c-d285bde5df93" />
+
+    As part of getting the problem solved we check the pods showing the labels And we add extra details with the following commands
+
+      <img width="468" height="107" alt="image" src="https://github.com/user-attachments/assets/0c3470b3-f14e-4555-878d-a9e11344f45c" />
+
+  
 **DEPLOYMENT OF PROJECT USING KUBERNETES**
   --
   MINIKUBE:
@@ -112,7 +121,7 @@ pushed into dockerhub from github directly.
 
   
 1. **Start Kubernetes Cluster (Minikube)**
---
+
     •	Minikube start
     •	Kubectl get nodes
 
