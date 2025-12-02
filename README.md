@@ -96,6 +96,43 @@ pushed into dockerhub from github directly.
 
   <img width="468" height="215" alt="image" src="https://github.com/user-attachments/assets/1ed3870e-2dc4-4088-a9af-c25c75d48d3c" />
 
+**DEPLOYMENT OF PROJECT USING KUBERNETES**
+  --
+  MINIKUBE:
+  --
+  •	Minikube is a tool that allows users to run a single-node Kubernetes cluster locally on their personal computer (Windows, macOS, or Linux).
+  •	It simplifies the process of setting up a local Kubernetes environment for development, testing, and learning purposes, eliminating the need for a complex multi-node setup.
+  •	Minikube provides the underlying infrastructure for a local Kubernetes cluster, typically within a virtual machine.
+
+  KUBECTL:
+  --
+  •	Kubectl is the official command-line interface (CLI) tool for interacting with Kubernetes clusters, regardless of where they are running (local Minikube, cloud provider, on-premises).
+  •	It is used to deploy and manage applications, inspect and manage cluster resources, and perform various administrative tasks within a Kubernetes cluster.
+  •	Kubectl commands communicate with the Kubernetes API server to create, update, delete, and retrieve information about Kubernetes objects like Pods, Deployments, Services, etc. 
+
+  
+1. **Start Kubernetes Cluster (Minikube)**
+--
+    •	Minikube start
+    •	Kubectl get nodes
+
+<img width="468" height="144" alt="image" src="https://github.com/user-attachments/assets/d5f1dd65-3fcf-4125-a693-f6bebddc4151" />
+
+  Cluster has been started
+
+2. **Kubernetes deployment file – deployment.yaml**
+
+  <img width="468" height="199" alt="image" src="https://github.com/user-attachments/assets/99d9a0a6-9f8b-4f98-85c6-338077d59c74" />
+
+3. Create a service.yaml
+   
+  * kubectl apply -f k8s/deployment.yaml
+  * kubectl  apply -f k8s/service.yaml
+    
+  Running applications seen in the image below
+  
+  <img width="468" height="45" alt="image" src="https://github.com/user-attachments/assets/f1139243-c7da-4e0f-bfbf-28e3136e2ab8" />
+
 
 
 **This project demonstrates:**
